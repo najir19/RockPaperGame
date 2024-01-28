@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="userSelect">
+        <h1>Rock Paper Scissors - User Part</h1>
+        <div class="choices">
+            <div class="choice" id="rock">
+                <img src="images/rock.png" alt="rock">
+            </div>
+            <div class="choice" id="paper">
+                <img src="images/paper.png" alt="rock">
+            </div>
+            <div class="choice" id="scissors">
+                <img src="images/scissors.png" alt="rock">
+            </div>
+        </div>
+        <div class="computerSelect">
+            <h1>Rock Paper Scissors - Computer Part</h1>
+            <div class="ComputerChoices">
+                <div class="ComputerChoice" id="rock-com">
+                    <img src="images/rock.png" alt="rock">
+                </div>
+                <div class="ComputerChoice" id="paper-com">
+                    <img src="images/paper.png" alt="rock">
+                </div>
+                <div class="ComputerChoice" id="scissors-com">
+                    <img src="images/scissors.png" alt="rock">
+                </div>
+            </div>
+        </div>
+        <div class="msg-container">
+            <p id="msg">Play your move</p>
+        </div>
+        <div class="draw-indicator">
+            <p id="draw">DRAW</p>
+        </div>
+        <div class="score-board">
+            <div class="score user-score">
+                <p id="user-score">0</p>
+                <p>You</p>
+            </div>
+            <div class="score computer-score">
+                <p id="computer-score">0</p>
+                <p>Computer</p>
+            </div>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
